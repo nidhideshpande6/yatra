@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Restaurant</title>
+		<link rel="stylesheet" type="text/css"href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css"href="css/nidhi.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script>
+function validateForm() {
+  var x = document.forms["myForm"]["userid"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+function validateForm() {
+  var x = document.forms["myForm"]["psw"].value;
+  if (x == "") {
+    alert("Enter your password");
+    return false;
+  }
+}
+</script>
+</script>
+</head>
+<body>
+	<div class="log1">
+	<h1 style="color:maroon;font-size: 55px;">DREAM RESTAURANT</h2>
+	<P>Sign in to proceed</P>	
+		<form name="myForm" action="home.html" onsubmit="return validateForm()" method="post">
+User name   :
+<input type="text" placeholder="Enter name" name="userid"><br><br>
+
+ password   :
+<input type="password" placeholder="Enter password" name="psw"><br><br><div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+<input type="submit" value="Login"> 
+<input type="submit" value="Sign up"></form>
+
+</body>
+</html>

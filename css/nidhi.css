@@ -1,0 +1,11 @@
+body
+{
+	background-image: url(../img/log1.jpg);
+}
+.log1
+{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 150px;
+}

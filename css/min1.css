@@ -1,0 +1,42 @@
+.con1
+{
+	font-size: 35px;
+	color:white;
+	margin:0 0 0 0;
+	padding:40px;
+	background-color:#bbb;
+	text-align: center;
+}
+body
+{
+	background-color:hsla(0,100%,90%,0.2);
+	margin: 50px 50px;
+}
+.navbar
+{
+	margin:0px;
+}
+.jumbotron
+{
+	background-color:white;
+	color:black;
+	margin-bottom:10px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.form
+{
+	background-color:grey;
+	color:white; 
+	text-align: center;
+	margin-left: 60px;
+	margin-right: 60px;
+
+}
+footer
+{
+	background-color:black;
+	color:white;
+	padding: 40px;margin-top: 10px;
+	text-align:center;
+}
